@@ -17,12 +17,12 @@ namespace SpecFlowBDDAutomationFramework.Utility
         public static ExtentTest _scenario;
 
         public static String dir = AppDomain.CurrentDomain.BaseDirectory;
-        //public static String testResultPath = dir.Replace("bin\\Debug\\net6.0", "TestResults");
-        public static String testResultPath = dir;
+        public static String testResultPath = dir.Replace("bin/Debug/net6.0", "TestResults");
+
 
         public static void ExtentReportInit()
         {
-            var htmlReporter = new ExtentHtmlReporter(testResultPath);
+            var htmlReporter = new ExtentHtmlReporter(testResultPath+"/index.html");
             htmlReporter.Config.ReportName = "Automation Status Report";
             htmlReporter.Config.DocumentTitle = "Automation Status Report";
             htmlReporter.Config.Theme = Theme.Standard;
