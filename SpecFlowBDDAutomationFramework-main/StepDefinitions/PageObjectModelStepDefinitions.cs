@@ -25,7 +25,7 @@ namespace SpecFlowBDDAutomationFramework.StepDefinitions
             Thread.Sleep(4000);
         }
 
-        [When(@"Search for the testers talk in youtube")]
+        [When(@"Search for the freecodecamp in youtube")]
         public void WhenSearchForTheTestersTalkInYoutube()
         {
             searchPage = new SearchPage(driver);
