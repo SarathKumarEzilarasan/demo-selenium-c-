@@ -44,7 +44,7 @@ namespace SpecFlowBDDAutomationFramework.StepDefinitions
         [Then(@"Verify title of the page")]
         public void ThenVerifyTitleOfThePage()
         {
-            Assert.AreEqual("Testers Talk - ", channelPage.getTitle());
+           Assert.AreEqual("freeCodeCamp.org - YouTube", channelPage.getTitle());
         }
 
 
