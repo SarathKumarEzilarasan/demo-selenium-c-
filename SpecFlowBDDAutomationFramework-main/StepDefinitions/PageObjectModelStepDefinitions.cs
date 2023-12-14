@@ -30,7 +30,7 @@ namespace SpecFlowBDDAutomationFramework.StepDefinitions
         {
             searchPage = new SearchPage(driver);
 
-            resultPage = searchPage.searchText("testers talk");
+            resultPage = searchPage.searchText("freecodecamp");
             Thread.Sleep(4000);
         }
 
