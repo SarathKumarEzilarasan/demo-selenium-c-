@@ -16,7 +16,7 @@ namespace SpecFlowBDDAutomationFramework.Pages
             this.driver = driver;
         }
 
-        By channelName = By.LinkText("Testers Talk");
+        By channelName = By.Id("channel-title");
 
         public ChannelPage clickOnChannel()
         {
