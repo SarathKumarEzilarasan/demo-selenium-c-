@@ -2,9 +2,9 @@
 
 Search testers talk in youtube
 
-@TestersTalk
+@freeCodeCamp
 Scenario:  PageObjectModel
 	Given Enter the youtube URL
-	When Search for the testers talk in youtube
+	When Search for the freecodecamp in youtube
 	And Navigate to channel
 	Then Verify title of the page
